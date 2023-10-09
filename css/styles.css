@@ -1,0 +1,398 @@
+html,body{
+    padding: 0px;
+    margin:0px;
+background-color: black;
+scroll-behavior: smooth;
+}
+body{
+    
+
+}
+@font-face {
+    font-family: MartianMono;
+    src: url('./font/MartianMono-Regular.ttf');
+}
+*{
+    font-family: 'MartianMono';
+}
+
+/*/////HOME///////*/
+.home-part1,.home-part2,.home-part3{
+width: 100%;
+
+}
+.home-part1,.home-part3{
+    background-color: black;
+    height: 33vh;
+}
+
+.home-part2{
+    height: 34vh;
+    background-color:black;
+    display: flex;
+}
+header{
+    height: 100vh;
+}
+.part2-left,.part2-right{
+    width: 33.3%;
+    height: 100%;
+    background-color: white;
+
+}
+.part2-left{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.part2-right{
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2-img{
+    display: flex;
+    justify-content: center;
+    width:33.4%;
+}
+.part2-img>img{
+    height:100%;
+
+}
+.name{
+    font-size:3rem;
+    text-align: center;
+}
+.title{
+    font-size:50px;
+}
+.home-part1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color:white
+}
+nav>ul>li{
+    list-style-type: none;
+    border-top: 1px solid white;
+    padding: 15px;
+}
+nav>ul>li:last-child{
+    border-bottom: 1px solid white;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
+.burger{
+    display: none;
+}
+
+.home-part3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+}
+.home-part3>div{
+    width: 33.4%;
+    color:white;
+    align-self: center;
+}
+.burger-drop{
+    display: flex;
+    flex-direction: column;
+}
+/*/////////COMPETENCES///////// */
+.competences{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    display: block;
+}
+
+.screen{
+    height:100vh;
+}
+.competences-title{
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+}
+.competences-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.competences-1{
+    padding: 30px;
+    background-color: white;
+
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.comptences-1>*{
+    
+}
+
+/*/////////PROJETS///////////*/
+.projets>a>img{
+    width: 400px;
+    cursor: pointer;
+}
+
+.projets-div{
+    
+}
+.my-projects{
+    display:block;
+}
+.projets>a:hover{
+    background-color: black;
+    opacity: 50%;
+}
+.projets-title{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.my-projects>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width:80%;
+    border-radius: 15px;
+
+}
+.my-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.projects-container>*{
+    padding: 10px;
+}
+/*/////////////CV/////////*/
+.cv{
+    background-image: url("../img/workplace.jpg");
+    background-position-y: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.cv>div{
+
+    height: 100%;
+}
+.cv-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cv-button>a{
+    text-decoration: none;
+   color:black;
+   background-color: white;
+
+   padding: 15px;
+   border-radius: 10px;
+   border:2px solid black;
+}
+.cv-button>a:hover{
+    background-color:black;
+    color:white;
+    border: 2px solid white;
+}
+
+.my-cv{
+    color:white;
+    font-size: 2rem;
+}
+/*//////////CONTACT////////////*/
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    color:white;
+}
+.contact-me>div>div{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+margin-left:20px ;
+}
+.contact-me>div>div>svg{
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    margin:auto;
+}
+.contact-me>div{
+    display:flex;
+    flex-direction: row;
+  
+    margin: auto;
+}
+
+form{
+    padding: 10px;
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.infos{
+    margin-left: 8px;
+}
+/*/////////////FOOTER////////////*/
+.linkedin{
+    background-color: white;
+    padding:10px;
+    border-radius: 50px;
+}.github{
+    background-color: white;
+    padding:10px;
+    border-radius: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #21201d;
+    padding: 10px;
+     color:white;
+     vertical-align: center;
+}
+footer>*{
+   padding: 10px;
+   font-size: 12px;
+   
+}
+footer>div>p>span{
+    text-decoration: line-through;
+}
+
+/*///////RESPONSIVE////////////*/
+
+@media only screen and (max-width: 767px) {
+    .part2-left{
+        display: none;
+    }
+    .part2-right{
+        width: 50%;
+    }
+    .part2-img{
+        width: 50%;
+    }
+    .home-part3>div{
+        width: 100%;
+    }
+    .name{
+        font-size:2rem;
+    }
+    nav{
+        display:none;
+    }
+    .burger{
+        padding-top:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .my-projects>div{
+        width: 90%;
+    }
+   .competences-container{
+    flex-direction: column;
+   }
+   .home-part1,.home-part3{
+    height: 80vh;
+   }
+   header{
+    height: 240vh;
+   }
+   .home-part2{
+    height: 80vh;
+   }
+   .contact-me>div{
+    flex-direction: column;
+   }
+   .contact-me>div>div{
+    justify-content: flex-start;
+   }
+   .contact-me>div>div>svg{
+    margin:0px;
+    vertical-align: center;
+    margin:auto;
+   }
+   
+  }
+
+  @media only screen and (min-width: 767px) {
+    .home-part1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        color:white
+    }
+    
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .part2-left {  
+    animation: 1.5s ease-out 0s 1 slideInFromLeft;
+    
+  }
+  .part2-right {  
+    animation: 1.5s ease-out 0s 1 slideInFromRight;
+    
+  }
+.agrandir{
+    
+}
