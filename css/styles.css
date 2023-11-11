@@ -6,7 +6,9 @@ scroll-behavior: smooth;
 }
 body{
     
-
+    max-width: 100%;
+    overflow-x: hidden; 
+    margin: 0 auto;
 }
 @font-face {
     font-family: MartianMono;
